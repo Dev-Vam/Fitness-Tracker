@@ -30,3 +30,43 @@ A modern, responsive web application for tracking your fitness activities and wo
 ## Getting Started
 
 1. Clone the repository:
+bash
+git clone https://github.com/yourusername/fittrack-pro.git
+
+
+2. Open `index.html` in your web browser
+
+## Usage
+
+1. Toggle between dark and light themes using the moon icon in the navigation bar
+2. Add a new workout:
+   - Select the workout category
+   - Enter the exercise name
+   - Input duration in minutes
+   - Input calories burned
+   - Click "Log Workout"
+3. View your statistics in the dashboard
+4. Browse your workout history in the workout list
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Dev Vamerlen
+
+## Acknowledgments
+
+- Font Awesome for the icons
+- Animate.css for animations
+- The open-source community
+
