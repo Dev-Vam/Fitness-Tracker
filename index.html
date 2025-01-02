@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitTrack Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    <div class="gradient-overlay"></div>
+    <div class="gradient-overlay-2"></div>
+    <nav class="navbar">
+        <div class="logo">FitTrack<span class="gradient-text">Pro</span></div>
+        <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <div class="container">
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <h1>Dashboard</h1>
+                <p class="subtitle gradient-text">Track Your Fitness Journey</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-fire"></i>
+                    <h3>Total Calories</h3>
+                    <p id="total-calories">0</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Total Minutes</h3>
+                    <p id="total-duration">0</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Workouts</h3>
+                    <p id="total-workouts">0</p>
+                </div>
+            </div>
+        </div>
+        
+        <form id="workout-form" class="workout-form">
+            <h2><i class="fas fa-plus-circle"></i> Add Workout</h2>
+            
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category" required>
+                    <option value="cardio">Cardio</option>
+                    <option value="strength">Strength Training</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="hiit">HIIT</option>
+                    <option value="sports">Sports</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exercise">Exercise Name:</label>
+                <input type="text" id="exercise" required>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="duration">Duration (min):</label>
+                    <input type="number" id="duration" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="calories">Calories:</label>
+                    <input type="number" id="calories" required>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn-primary">
+                <i class="fas fa-plus"></i> Log Workout
+            </button>
+        </form>
+
+        <div id="workout-list">
+            <h2><i class="fas fa-list"></i> Your Workouts</h2>
+            <div id="workouts" class="workouts-grid"></div>
+        </div>
+    </div>
+    <p>Made by Dev Vamerlen.</p>
+    <script src="script.js"></script>
+</body>
+</html> 
