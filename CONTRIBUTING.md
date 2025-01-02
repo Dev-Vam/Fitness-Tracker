@@ -1,21 +1,47 @@
-MIT License
+## Styleguides
 
-Copyright (c) 2024 Dev Vamerlen
+### Git Commit Messages
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+- Use the present tense ("Add feature" not "Added feature")
+- Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+- Limit the first line to 72 characters or less
+- Reference issues and pull requests liberally after the first line
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### JavaScript Styleguide
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- Use 2 spaces for indentation
+- Use camelCase for variable and function names
+- Use PascalCase for class names
+- Add comments for complex logic
+- Follow ESLint recommendations
+
+### CSS Styleguide
+
+- Use CSS variables for theming
+- Follow BEM naming convention
+- Keep selectors as simple as possible
+- Group related properties together
+- Add comments for complex styles
+
+### HTML Styleguide
+
+- Use semantic HTML elements
+- Include appropriate ARIA labels
+- Maintain proper indentation
+- Keep markup clean and minimal
+
+## Additional Notes
+
+### Issue and Pull Request Labels
+
+- `bug`: Something isn't working
+- `enhancement`: New feature or request
+- `documentation`: Improvements or additions to documentation
+- `good first issue`: Good for newcomers
+- `help wanted`: Extra attention is needed
+
+## Questions?
+
+Don't hesitate to ask questions by creating an issue with the `question` label.
+
+Thank you for contributing to FitTrack Pro! 🎉
